@@ -1,23 +1,21 @@
-import React from 'react'
-import { NavLink } from 'react-router-dom'
+import React from 'react';
+import { NavLink } from 'react-router-dom';
 
-const Header = () => {
-  return (
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-  <div class="container-fluid">
-    <div class="collapse navbar-collapse justify-content-center" id="navbarCenteredExample">
-      <ul class="navbar-nav mb-2 mb-lg-0 d-flex justify-content-between">
-        <li class="nav-item">
-          <NavLink to="/" className="nav-link">Home</NavLink>
-        </li>
-        <li class="nav-item ms-5">
-          <NavLink to="/greeting" className="nav-link">Greeting</NavLink>
-        </li>
-      </ul>
+const Header = () => (
+  <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div className="container-fluid">
+      <div className="collapse navbar-collapse justify-content-center" id="navbarCenteredExample">
+        <ul className="navbar-nav mb-2 mb-lg-0 d-flex justify-content-between">
+          <li className="nav-item">
+            <NavLink to="/" className="nav-link">Home</NavLink>
+          </li>
+          <li className="nav-item ms-5">
+            <NavLink to="/greeting" className="nav-link">Greeting</NavLink>
+          </li>
+        </ul>
+      </div>
     </div>
-  </div>
-</nav>
-  )
-}
+  </nav>
+);
 
-export default Header
+export default Header;
