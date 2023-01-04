@@ -123,6 +123,7 @@ To run the project, execute the following command:
 
 You can deploy this project using:
 > Netlify <br/>
+> Link to eployment : `https://hello-app-react-kasiliacreations.netlify.app/`
 
 ## Here is a link to the backend development
 > `https://github.com/David-Kasilia/hello-rails-backend`
